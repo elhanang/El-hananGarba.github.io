@@ -15,357 +15,436 @@
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+		<div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
+			<!-- Profile Picture -->
+			<div style="display:flex; justify-content:center; margin-bottom: -1.5rem; margin-top: 2.5rem;">
+				<img src="images\DSC_7923n.jpg.jpeg" alt=""
+					style="width:300px; height:300px; border-radius:50%; object-fit:cover; object-position: center top;
+					border: 4px solid rgba(255,255,255,0.25);
+					box-shadow: 0 4px 20px rgba(0,0,0,0.4);" />
+			</div>
 
-				<!-- Profile Picture -->
-						<div style="display:flex; justify-content:center; margin-bottom: -1.5rem; margin-top: 2.5rem;">
-							<img src="images\DSC_7923n.jpg.jpeg" alt=""
-								style="width:300px; height:300px; border-radius:50%; object-fit:cover; object-position: center top;
-								border: 4px solid rgba(255,255,255,0.25);
-								box-shadow: 0 4px 20px rgba(0,0,0,0.4);" />
-						</div>
+			<!-- Intro -->
+		<div id="intro">
+			<h1 style="margin-top:-0.5rem;">El-hanan Garba</h1>
+			<h3>Data Analyst &amp; Business Intelligence Analyst</h3>
+			<h4>Interactive Projects &bull; SQL &bull; Power BI &bull; Excel &bull; Python &bull; AI-Driven Analysis</h4>
+			<p>
+				I'm a Data Analyst and Business Intelligence Analyst focused on turning raw data into clear,
+				actionable insights that drive measurable results. I work with SQL, Power BI, Excel, Python,
+				and AI-assisted tools to handle everything from data modeling and DAX calculations to ETL
+				processes, data visualization, and statistical analysis. I enjoy building reliable dashboards
+				and reports that support day-to-day decisions while also contributing to long-term data
+				strategy. Explore my projects below and feel free to reach out at the end.
+			</p>
+			<ul class="actions">
+				<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+			</ul>
+		</div>
 
-						
-					<div id="intro">
-						<h1 style="margin-top: -0.5rem;">El-hanan Garba<br/></h1>
-						<h3>Data Analyst & Business Intelligence Analyst<br/>
-						</h3>
-						<h4>Interactive Projects • SQL • Power BI • Excel • Python • AI-Driven Analysis </h4>
-						<p>I’m a Data Analyst and Business Intelligence Analyst focused on turning raw data into clear, actionable insights that drive measurable results. I work with SQL, Power BI, Excel, Python, and AI-assisted tools to handle everything from data modeling and DAX calculations to ETL processes, data visualization, and statistical analysis. I enjoy building reliable dashboards and reports that support day-to-day decisions while also contributing to long-term data strategy. Explore my projects below and feel free to reach out at the end.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+			<!-- Header -->
+		<header id="header">
+			<a href="" class="logo">WELCOME!</a>
+		</header>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="" class="logo" target="_blank">WELCOME!</a>
+		<!-- Nav -->
+		<nav id="nav">
+			<ul class="links">
+				<li class="active">
+					<a>Let's connect and explore the power of data together!</a>
+				</li>
+			</ul>
+			<ul class="icons">
+				<li>
+					<a href="https://www.linkedin.com/in/elhanangarba" class="icon brands alt fa-linkedin" target="_blank">
+						<span class="label">LinkedIn</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/elhanang" class="icon brands alt fa-github" target="_blank">
+						<span class="label">GitHub</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+				<h1 id="projects" style="text-align: center;">PROJECTS</h1>
+
+				<!-- Posts -->
+				<section class="posts">
+
+					<!-- Project 1: Cyclistic Bike Share -->
+				<article>
+					<header>
+						<h2>Cyclistic Bike Share Analysis (SQL Project)</h2>
 					</header>
+					<a href="https://github.com/elhanang/Cyclistic_Bike_Share_Analysis" class="image fit" target="_blank">
+						<img src="images/cyclistic_logo.png" alt="Cyclistic Bike Share Analysis" />
+					</a>
+					<p>
+						I explored 12 months of Cyclistic bike-share data — 5.5 million trips from Nov 2024 to Oct 2025 —
+						to understand how annual members and casual riders use the service differently. Using PostgreSQL,
+						I broke down ride frequency, duration, daily and weekly patterns, seasonal trends, and bike type
+						preferences to uncover what influences each group's behavior. The goal was to surface insights the
+						marketing team could use to convert more casual riders into annual members.
+					</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/elhanang/Cyclistic_Bike_Share_Analysis" class="button large" target="_blank">View Project</a></li>
+					</ul>
+				</article>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a>Let's connect and explore the power of data together!</a></li>
-							
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/elhanangarba" class="icon brands alt fa-linkedin"><span class="label"  target="_blank">LinkedIn</span></a></li>
-									
-							<li><a href="https://github.com/elhanang" class="icon brands alt fa-github"><span class="label"  target="_blank">GitHub</span></a></li>
-				
-							
-						</ul>
-					</nav>
+				<!-- Project 2: Awesome Clinic Dashboard -->
+				<article>
+					<header>
+						<h2>Awesome Clinic Performance Dashboard (Power BI Project)</h2>
+					</header>
+					<a href="https://github.com/elhanang/Awesome_Clinic_Power_BI_Data_Report" class="image fit" target="_blank">
+						<img src="images/data professionals.jfif" alt="Awesome Clinic Performance Dashboard" />
+					</a>
+					<p>
+						This project leverages visual analytics to help Awesome Clinic track operational performance,
+						uncover what's driving patient volume, and identify areas for improvement. It highlights patient
+						trends, departmental demand, referral variability, and inpatient utilization using key KPIs.
+						Built with Power Query, a relational data model, and DAX measures, the dashboard transforms
+						4,000 patient records into clear, actionable insights for leadership decision-making.
+					</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/elhanang/Awesome_Clinic_Power_BI_Data_Report" class="button large" target="_blank">View Project</a></li>
+					</ul>
+				</article>
 
-				<!-- Main -->
-					<div id="main">
-						
+				<!-- Project 3: Viva Calif E-Commerce -->
+				<article>
+					<header>
+						<h2>Viva Calif E-Commerce Sales Dashboard (Excel Project)</h2>
+					</header>
+					<a href="https://drive.google.com/drive/folders/1QA4gu_T98_0-qroW084Vurp3hA_Kc36t?usp=sharing" class="image fit" target="_blank">
+						<img src="images/excel.jpg" alt="Viva Calif E-Commerce Sales Dashboard" />
+					</a>
+					<p>
+						I analyzed 2,400 customer orders totaling $649K across 13 weeks to evaluate purchasing trends,
+						channel performance, and fulfillment efficiency for an e-commerce business. Using Excel Pivot
+						Tables, I compared mobile versus desktop sales performance, tracked weekly revenue patterns, and
+						assessed delivery cycles — identifying a consistent 2–3 day average fulfillment time. The goal
+						was to give the business a clear picture of where revenue was concentrated, how each sales channel
+						was performing, and where operational efficiency could be tightened.
+					</p>
+					<ul class="actions special">
+						<li><a href="https://drive.google.com/drive/folders/1QA4gu_T98_0-qroW084Vurp3hA_Kc36t?usp=sharing" class="button large" target="_blank">View Project</a></li>
+					</ul>
+				</article>
 
-					<!-- Main -->
-								<div id="main">  
-									<h1 id="projects" ,="" style="text-align: center;">PROJECTS</h1>
-			
-							
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										
-										<h2>CYCLISTIC BIKE SHARE ANALYSIS (SQL PROJECT) <br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/elhanang/Cyclistic_Bike_Share_Analysis" class="image fit" target="_blank"><img src="images\cyclistic_logo.png" alt="" /></a>
-									<p>I explored 12 months of Cyclistic bike-share data. 5.5 million trips from Nov 2024 to Oct 2025 to understand how annual members and casual riders use the service differently. Using PostgreSQL, I broke down ride frequency, duration, daily and weekly patterns, seasonal trends, and bike type preferences to uncover what influences each group’s behavior. The goal was to surface insights the marketing team could use to convert more casual riders into annual members. See the full project on GitHub linked here.</p>
-									
+				<!-- Project 4: Airbnb Listing Analysis -->
+				<article>
+					<header>
+						<h2>Airbnb Listing Analysis (Python Project)</h2>
+					</header>
+					<a href="https://github.com/elhanang/AirBnB_Listing_Analysis" class="image fit" target="_blank">
+						<img src="images/AirBnB.jpg" alt="Airbnb Listing Analysis" />
+					</a>
+					<p>
+						I investigate pricing patterns across neighbourhoods, how accommodation capacity drives listing
+						prices, and whether new host activity and average pricing shifted in the years following the 2015
+						short-term rental regulations. Through Python-driven analysis, I explore the key factors affecting
+						pricing and the measurable effect of regulation on the Paris market. Analyzing the Paris Airbnb
+						market reveals a compelling story about the real-world impact of policy change.
+					</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/elhanang/AirBnB_Listing_Analysis" class="button large" target="_blank">View Project</a></li>
+					</ul>
+				</article>
 
-							
+				<!-- Project 5: Chocolate Sales Dashboard -->
+				<article>
+					<header>
+						<h2>Chocolate Sales Data Report (Power BI Project)</h2>
+					</header>
+					<a href="https://github.com/elhanang/Chocolate_Sales_Data_Report_Power_BI_Project" class="image fit" target="_blank">
+						<img src="images/Chocolate_Sales.jpg" alt="Chocolate Sales Data Report" />
+					</a>
+					<p>
+						I designed and built a Power BI sales dashboard tracking $27.99M in revenue and 2 million boxes
+						sold across multiple countries and salespeople over a 21-month period (January 2023 – September
+						2024). The dashboard features a dynamic date slicer, a monthly revenue trend line revealing
+						seasonality patterns, a country-level breakdown, a salesperson performance table with highlighted
+						top earners, and a product ranking chart across 22 chocolate SKUs. The goal was to give sales
+						leadership a single view for identifying top performers, underperforming markets, and revenue
+						trends.
+					</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/elhanang/Chocolate_Sales_Data_Report_Power_BI_Project" class="button large" target="_blank">View Project</a></li>
+					</ul>
+				</article>
 
-										
-									<ul class="actions special">
-										<li><a href="https://github.com/elhanang/Cyclistic_Bike_Share_Analysis" class="button large" target="_blank">VIEW PROJECT</a>
-									</ul>
-								</article>
+				<!-- Project 6: World Layoffs -->
+				<article>
+					<header>
+						<h2>World Layoffs Data Cleaning &amp; EDA (SQL Project)</h2>
+					</header>
+					<a href="https://github.com/elhanang/world_layoffs" class="image fit" target="_blank">
+						<img src="images/layoffs.jfif" alt="World Layoffs Data Cleaning & EDA" />
+					</a>
+					<p>
+						I used PostgreSQL to clean and explore a real-world dataset tracking global tech and corporate
+						layoffs, covering both data preparation and exploratory analysis. The cleaning phase handles
+						the full pipeline — removing duplicates, standardizing inconsistent values, handling null and
+						blank fields, and dropping columns that added no analytical value. The EDA phase then digs into
+						the cleaned data to uncover patterns in layoff trends across companies, industries, countries,
+						and time periods. The goal was to go from raw, unreliable data all the way to meaningful insights
+						using nothing but structured SQL.
+					</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/elhanang/world_layoffs" class="button large" target="_blank">View Project</a></li>
+					</ul>
+				</article>
+
+				<!-- Project 7: Educational Performance Dashboard -->
+				<article>
+					<header>
+						<h2>Educational Performance Dashboard (Power BI Project)</h2>
+					</header>
+					<a href="https://github.com/elhanang/Educational_Performance_Dashboard_Power_BI_Project" class="image fit" target="_blank">
+						<img src="images/school-children-classroom-lesson_1128603-6769.avif" alt="Educational Performance Dashboard" />
+					</a>
+					<p>
+						I built an education-focused Power BI dashboard to visualize student performance across multiple
+						districts and states in the US, covering reading and math scores, extracurricular activity
+						participation, and year-on-year comparisons. The dashboard allows district leaders and educators
+						to quickly understand how scores vary by location and activity, identify underperforming areas,
+						and benchmark current results against the previous school year.
+					</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/elhanang/Educational_Performance_Dashboard_Power_BI_Project" class="button large" target="_blank">View Project</a></li>
+					</ul>
+				</article>
+
+				<!-- Project 8: Data Science Job Market Analysis -->
+				<article>
+					<header>
+						<h2>Data Science Job Market Analysis (Python Project)</h2>
+					</header>
+					<a href="https://github.com/elhanang/Python_Data_Project" class="image fit" target="_blank">
+						<img src="images/Marketing-manager-presenting-charts-on-screen-at-team-meeting-best-jobs-with-business-degree.jpg" alt="Data Science Job Market Analysis" />
+					</a>
+					<p>
+						Using Python, I investigated 2023 data science job postings to surface trends in skills demand,
+						salary ranges, and role types through exploratory data analysis and visualization. Working with
+						Pandas for data wrangling and Matplotlib and Seaborn for visualization, I explored which skills
+						appear most frequently across job listings, which roles command the highest pay, and what the
+						overall landscape looks like for someone entering the data field. The findings are documented in
+						a structured Jupyter Notebook.
+					</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/elhanang/Python_Data_Project" class="button large" target="_blank">View Project</a></li>
+					</ul>
+				</article>
+
+				<!-- Project 9: Data Professional Survey Breakdown -->
+				<article>
+					<header>
+						<h2>Data Professional Survey Breakdown (Power BI Project)</h2>
+					</header>
+					<a href="https://github.com/elhanang/Data_Professional_Survey_Breakdown_Power_BI_Project" class="image fit" target="_blank">
+						<img src="images/FTRaytheon_AIM-1239RGB_coverimage_brightened-1695059330699.webp" alt="Data Professional Survey Breakdown" />
+					</a>
+					<p>
+						I designed and built an interactive Power BI dashboard to analyze survey responses from 630 data
+						professionals across the US, UK, India, Canada, and beyond. The dashboard visualizes average
+						salary by job title, favorite programming languages, perceived difficulty of breaking into the
+						data field, and satisfaction scores for work/life balance and salary, giving a fast, scannable
+						picture of the realities of working in data. Built using treemap, bar, donut, and gauge visuals
+						with clean DAX measures.
+					</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/elhanang/Data_Professional_Survey_Breakdown_Power_BI_Project" class="button large" target="_blank">View Project</a></li>
+					</ul>
+				</article>
+
+				<!-- Project 10: SQL Data Job Analysis -->
+				<article>
+					<header>
+						<h2>SQL Data Job Analysis (SQL Project)</h2>
+					</header>
+					<a href="https://github.com/elhanang/SQL_Project_Data_Job_Analysis-main" class="image fit" target="_blank">
+						<img src="images/GettyImages-1332378553.png" alt="SQL Data Job Analysis" />
+					</a>
+					<p>
+						Using PostgreSQL, I investigated 2023 data science job postings to uncover insights that could
+						guide career development. I queried a large dataset of real job listings to identify the
+						highest-paying roles, the most in-demand skills, and the overlap between high salary and high
+						demand, answering the question every data professional has: where should I focus my energy?
+						Using joins, CTEs, subqueries, and aggregations, I structured the analysis around five core
+						questions with full reproducibility.
+					</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/elhanang/SQL_Project_Data_Job_Analysis-main" class="button large" target="_blank">View Project</a></li>
+					</ul>
+				</article>
+
+				<!-- Project 11: US Emissions Dashboard -->
+				<article>
+					<header>
+						<h2>US Emissions Dashboard (Databricks Project)</h2>
+					</header>
+					<a href="https://github.com/elhanang/US_Emissions_Dashboard" class="image fit" target="_blank">
+						<img src="images/o-CARBON-EMISSIONS-facebook.jpg" alt="US Emissions Dashboard" />
+					</a>
+					<p>
+						I analyzed EPA emissions data across the United States using Databricks to build a dashboard
+						that breaks down pollution levels by state and county, calculates emissions per capita and per
+						area, and visualizes geographic hotspots across the country. The goal was to turn a large
+						environmental dataset into a clear, interactive view that supports data-driven decision-making
+						around pollution patterns and regional environmental impact.
+					</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/elhanang/US_Emissions_Dashboard" class="button large" target="_blank">View Project</a></li>
+					</ul>
+				</article>
+
+					<!-- Project 12: Python Data Cleaning -->
+				<article>
+					<header>
+						<h2>Python Data Cleaning (Python Project)</h2>
+					</header>
+					<a href="https://github.com/elhanang/Python_Data_Cleaning" class="image fit" target="_blank">
+						<img src="images/5_simple_steps_to_automate_data_cleaning_in_python-2048x1151.jpg" alt="Python Data Cleaning" />
+					</a>
+					<p>
+						I built a structured, repeatable data cleaning workflow using Python and Pandas, covering the
+						most common data quality issues found in real-world datasets. The project walks through duplicate
+						removal, handling of missing and null values, format standardization across columns, data type
+						corrections, and validation checks. Each step is documented inside a Jupyter Notebook so the logic
+						is fully transparent and reusable on any dataset. Clean data is the foundation of every reliable
+						analysis.
+					</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/elhanang/Python_Data_Cleaning" class="button large" target="_blank">View Project</a></li>
+					</ul>
+				</article>
 
 
-								
-								<article>
-
-
-									<header>
-									
-										<h2>AWESOME CLINIC PERFORMANCE DASHBOARD (POWER BI PROJECT)<br />
-										
-									</header>
-									<a href="https://github.com/elhanang/Awesome_Clinic_Power_BI_Data_Report" class="image fit" target="_blank"><img src="images/data professionals.jfif" alt="" /></a>
-									<p>This project leverages visual analytics to help Awesome Clinic track operational performance, uncover what’s driving patient volume, and identify areas for improvement. It highlights patient trends, departmental demand, referral variability, and inpatient utilization using key KPIs. Built with Power Query, a relational data model, and DAX measures, the dashboard transforms 4,000 patient records into clear, actionable insights for leadership decision-making. See the full project on Power BI right here.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/elhanang/Awesome_Clinic_Power_BI_Data_Report" class="button large" target="_blank">VIEW PROJECT</a>
-									</ul>
-								</article>
-
-
-								<article>
-									<header>
-										
-										<h2>VIVA CALIF E-COMMERCE SALES DASHBOARD (EXCEL PROJECT)<br />
-										
-									</header>
-									<a href="https://drive.google.com/drive/folders/1QA4gu_T98_0-qroW084Vurp3hA_Kc36t?usp=sharing" class="image fit" target="_blank"><img src="images\excel.jpg" alt="" /></a>
-									<p>I analyzed 2,400 customer orders totaling $649K across 13 weeks to evaluate purchasing trends, channel performance, and fulfillment efficiency for an e-commerce business. Using Excel Pivot Tables, I compared mobile versus desktop sales performance, tracked weekly revenue patterns, and assessed delivery cycles, identifying a consistent 2–3 day average fulfillment time. The goal was to give the business a clear picture of where revenue was concentrated, how each sales channel was performing, and where operational efficiency could be tightened. See the full project on Google Drive linked here.</p>
-										<ul class="actions special">
-											<li><a href="https://drive.google.com/drive/folders/1QA4gu_T98_0-qroW084Vurp3hA_Kc36t?usp=sharing" class="button large" target="_blank">VIEW PROJECT</a>
-									</ul>
-								</article>
-
-
-								<article>
-									<header>
-
-								   <h2>AIRBNB LISTING ANALYSIS (PYTHON PROJECT)<br />
-										
-									</header>
-									<a href="https://github.com/elhanang/AirBnB_Listing_Analysis" class="image fit" target="_blank"><img src="images\AirBnB.jpg" alt="" /></a>
-									<p>I investigate pricing patterns across neighbourhoods, how accommodation capacity drives listing prices, and whether new host activity and average pricing shifted in the years following the 2015 short-term rental regulations. Through Python-driven analysis, I explore the key factors affecting pricing and the measurable effect of regulation on the Paris market. See the full project on GitHub linked here. Analyzing the Paris Airbnb market reveals a compelling story about the real world impact of policy change.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/elhanang/AirBnB_Listing_Analysis" class="button large" target="_blank">VIEW PROJECT</a>
-									</ul>
-								</article>
-
-								<article>
-									<header>
-
-								   <h2>CHOCOLATE SALES DATA REPORT (POWER BI PROJECT)<br />
-										
-									</header>
-									<a href="https://github.com/elhanang/Chocolate_Sales_Data_Report_Power_BI_Project" class="image fit" target="_blank"><img src="images\Chocolate_Sales.jpg" alt="" /></a>
-									<p>I designed and built a Power BI sales dashboard tracking $27.99M in revenue and 2 million boxes sold across multiple countries and salespeople over a 21-month period from January 2023 to September 2024. The dashboard features a dynamic date slicer for flexible filtering, a monthly revenue trend line revealing seasonality patterns, a country-level breakdown across differant countries, a salesperson performance table with highlighted top earners, and a product ranking chart across 22 chocolate SKUs. The goal was to give sales leadership a single view for identifying top performers, underperforming markets, and revenue trends without manually digging through data. See the full project on GitHub linked here.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/elhanang/Chocolate_Sales_Data_Report_Power_BI_Project" class="button large" target="_blank">VIEW PROJECT</a>
-									</ul>
-								</article>
-
-
-								<article>
-									<header>
-
-								   <h2>WORLD LAYOFFS DATA CLEANING & EDA (SQL PROJECT)<br />
-										
-									</header>
-									<a href="https://github.com/elhanang/world_layoffs" class="image fit" target="_blank"><img src="images\layoffs.jfif" alt="" /></a>
-									<p>I used PostgreSQL to clean and explore a real-world dataset tracking global tech and corporate layoffs, covering both data preparation and exploratory analysis. The cleaning phase handles the full pipeline, removing duplicates, standardizing inconsistent values, handling null and blank fields, and dropping columns that added no analytical value. The EDA phase then digs into the cleaned data to uncover patterns in layoff trends across companies, industries, countries, and time periods. The goal was to go from raw, unreliable data all the way to meaningful insights using nothing but structured SQL. See the full project on GitHub linked here.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/elhanang/world_layoffs" class="button large" target="_blank">VIEW PROJECT</a>
-									</ul>
-								</article>
-
-								<article>
-									<header>
-										
-										<h2>EDUCATIONAL PERFORMANCE DASHBOARD (POWER BI PROJECT)<br />
-										
-									</header>
-									<a href="https://github.com/elhanang/Educational_Performance_Dashboard_Power_BI_Project" class="image fit" target="_blank"><img src="images\school-children-classroom-lesson_1128603-6769.avif" alt="" /></a>
-									<p>I built an education-focused Power BI dashboard to visualize student performance across multiple districts and states in the US, covering reading and math scores, extracurricular activity participation, and year-on-year comparisons. The dashboard allows district leaders and educators to quickly understand how scores vary by location and activity, identify underperforming areas, and benchmark current results against the previous school year. Built with Power BI's interactive filtering and visual layout tools, the report turns student performance data into a navigable, decision-ready view. See the full project on GitHub linked here.</p>
-										<ul class="actions special">
-											<li><a href="https://github.com/elhanang/Educational_Performance_Dashboard_Power_BI_Project" class="button large" target="_blank">VIEW PROJECT</a>
-									</ul>
-								</article>
-
-
-								<article>
-									<header>
-
-								   <h2>DATA SCIENCE JOB MARKET ANALYSIS (PYTHON PROJECT)<br />
-										
-									</header>
-									<a href="https://github.com/elhanang/Python_Data_Project" class="image fit" target="_blank"><img src="images\Marketing-manager-presenting-charts-on-screen-at-team-meeting-best-jobs-with-business-degree.jpg" alt="" /></a>
-									<p>Using Python, I investigated 2023 data science job postings to surface trends in skills demand, salary ranges, and role types through the lens of exploratory data analysis and visualization. Working with Pandas for data wrangling and Matplotlib and Seaborn for visualization, I explored which skills appear most frequently across job listings, which roles command the highest pay, and what the overall landscape looks like for someone entering the data field. The findings are documented in a structured Jupyter Notebook. See the full project on GitHub linked here.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/elhanang/Python_Data_Project" class="button large" target="_blank">VIEW PROJECT</a>
-									</ul>
-								</article>
-
-
-								<article>
-									<header>
-										
-										<h2>DATA PROFESSIONAL SURVEY BREAKDOWN (POWER BI PROJECT)<br />
-										
-									</header>
-									<a href="https://github.com/elhanang/Data_Professional_Survey_Breakdown_Power_BI_Project" class="image fit" target="_blank"><img src="images\FTRaytheon_AIM-1239RGB_coverimage_brightened-1695059330699.webp" alt="" /></a>
-									<p>I designed and built an interactive Power BI dashboard to analyze survey responses from 630 data professionals across the US, UK, India, Canada, and beyond. The dashboard visualizes average salary by job title, favorite programming languages, perceived difficulty of breaking into the data field, and satisfaction scores for work/life balance and salary, giving a fast, scannable picture of the realities of working in data. Built using treemap, bar, donut, and gauge visuals with clean DAX measures, the report surfaces meaningful patterns from raw survey data in a single view. See the full project on GitHub linked here.</p>
-										<ul class="actions special">
-											<li><a href="https://github.com/elhanang/Data_Professional_Survey_Breakdown_Power_BI_Project" class="button large" target="_blank">VIEW PROJECT</a>
-									</ul>
-								</article>
-
-
-								<article>
-									<header>
-
-								   <h2>SQL DATA JOB ANALYSIS (SQL PROJECT)<br />
-										
-									</header>
-									<a href="https://github.com/elhanang/SQL_Project_Data_Job_Analysis-main" class="image fit" target="_blank"><img src="images\GettyImages-1332378553.png" alt="" /></a>
-									<p>Using PostgreSQL, I investigated 2023 data science job postings to uncover insights that could guide my own job search and career development. I queried a large dataset of real job listings to identify the highest-paying roles, the most in-demand skills, and the overlap between high salary and high demand — answering the question every data professional has: where should I focus my energy? Using joins, CTEs, subqueries, and aggregations, I structured the analysis around five core questions and documented all queries for full reproducibility. See the full project on GitHub linked here.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/elhanang/SQL_Project_Data_Job_Analysis-main" class="button large" target="_blank">VIEW PROJECT</a>
-									</ul>
-								</article>
-									
-
-								<article>
-									<header>
-										
-										<h2>US EMISSIONS DASHBOARD (DATABRICKS PROJECT)<br />
-										
-									</header>
-									<a href="https://github.com/elhanang/US_Emissions_Dashboard" class="image fit" target="_blank"><img src="images\o-CARBON-EMISSIONS-facebook.jpg" alt="" /></a>
-									<p>I analyzed EPA emissions data across the United States using Databricks to build a dashboard that breaks down pollution levels by state and county, calculates emissions per capita and per area, and visualizes geographic hotspots across the country. The goal was to turn a large environmental dataset into a clear, interactive view that supports data-driven decision-making around pollution patterns and regional environmental impact. Working inside the Databricks environment, I processed and modeled the raw EPA data before surfacing the findings through structured dashboard visuals. See the full project on GitHub linked here.</p>
-										<ul class="actions special">
-											<li><a href="https://github.com/elhanang/US_Emissions_Dashboard" class="button large" target="_blank">VIEW PROJECT</a>
-									</ul>
-								</article>
-
-
-								<article>
-									<header>
-
-								   <h2>PYTHON DATA CLEANING (PYTHON PROJECT)<br />
-										
-									</header>
-									<a href="https://github.com/elhanang/Python_Data_Cleaning" class="image fit" target="_blank"><img src="images\5_simple_steps_to_automate_data_cleaning_in_python-2048x1151.jpg" alt="" /></a>
-									<p>I built a structured, repeatable data cleaning workflow using Python and Pandas, covering the most common data quality issues found in real-world datasets. The project walks through duplicate removal, handling of missing and null values, format standardization across columns, data type corrections, and validation checks — each step documented inside a Jupyter Notebook so the logic is fully transparent and reusable on any dataset. Clean data is the foundation of every reliable analysis, and this project demonstrates exactly how I approach that foundation before any work begins. See the full project on GitHub linked here.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/elhanang/Python_Data_Cleaning" class="button large" target="_blank">VIEW PROJECT</a>
-									</ul>
-								</article>
-
-<!-- Tools Section -->
-					</div>
-
-					<div id="tools" style="padding: 3rem 2rem 2rem;">
-						<h1 style="text-align:center; margin-bottom: 2.5rem;">TOOLS & TECHNOLOGIES</h1>
-						<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:2.5rem; max-width:900px; margin:0 auto 3rem;">
-
-							<!-- PostgreSQL -->
-							<div style="display:flex; flex-direction:column; align-items:center; gap:0.6rem;">
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
-									alt="PostgreSQL" style="width:60px; height:60px;" />
-								<span style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">PostgreSQL</span>
-							</div>
-
-							<!-- Excel -->
-							<div style="display:flex; flex-direction:column; align-items:center; gap:0.6rem;">
-								<img src="https://img.icons8.com/color/96/microsoft-excel-2019.png"
-									alt="Excel" style="width:60px; height:60px;" />
-								<span style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">Excel</span>
-							</div>
-
-							<!-- Power BI -->
-							<div style="display:flex; flex-direction:column; align-items:center; gap:0.6rem;">
-								<img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
-									alt="Power BI" style="width:60px; height:60px;" />
-								<span style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">Power BI</span>
-							</div>
-
-							<!-- Python -->
-							<div style="display:flex; flex-direction:column; align-items:center; gap:0.6rem;">
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-									alt="Python" style="width:60px; height:60px;" />
-								<span style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">Python</span>
-							</div>
-
-							<!-- GitHub -->
-							<div style="display:flex; flex-direction:column; align-items:center; gap:0.6rem;">
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-									alt="GitHub" style="width:60px; height:60px;" />
-								<span style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">GitHub</span>
-							</div>
-
-							<!-- VS Code -->
-							<div style="display:flex; flex-direction:column; align-items:center; gap:0.6rem;">
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
-									alt="VS Code" style="width:60px; height:60px;" />
-								<span style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">VS Code</span>
-							</div>
-
-							<!-- Artificial Intelligence -->
-							<div style="display:flex; flex-direction:column; align-items:center; gap:0.6rem;">
-								<img src="https://img.icons8.com/color/96/artificial-intelligence.png"
-									alt="AI" style="width:60px; height:60px;" />
-								<span style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">Artificial Intelligence</span>
-							</div>
-
-							<!-- Jupyter Notebook -->
-
-						
-<!-- Footer -->
-					</div>
-					<h1 id="Contact" ,="" style="text-align: center;">Contact </h1>
-
-<footer id="footer">
-						<section>
-						<form method="POST" action="https://formspree.io/f/mblnkqlr">
-							<h3 style="text-align:center;">Send a Message</h3>
-            <div class="fields">
-                <div class="field">
-                    <label for="name">Name <span style="color: red">*</span></label>
-                    <input type="text" name="name" id="name" required />
-                </div>
-
-                <div class="field">
-                    <label for="email">Email <span style="color: red">*</span></label>
-                    <input type="email" name="email" id="email" required />
-                </div>
-
-				<div class="field">
-                    <label for="name">Subject</label>
-                    <input type="text" name="subject" id="subject" />
-                </div>
-
-                <div class="field">
-                    <label for="message">Message <span style="color: red">*</span></label>
-                    <textarea name="message" id="message" rows="3" required></textarea>
-                </div>
-            </div>
+				</section>
 			
 
-            <ul class="actions" style="justify-content: center;">
-    <li><input type="submit" value="Send Message" /></li>
-</ul>
+			<!-- Tools Section -->
+			<div id="tools" style="padding: 3rem 2rem 2rem;">
+				<h1 style="text-align:center; margin-bottom: 2.5rem;">TOOLS & TECHNOLOGIES</h1>
+				<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:2.5rem; max-width:900px; margin:0 auto 3rem;">
 
+					<!-- PostgreSQL -->
+					<div style="display:flex; flex-direction:column; align-items:center; gap:0.6rem;">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+							alt="PostgreSQL" style="width:60px; height:60px;" />
+						<span style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">PostgreSQL</span>
+					</div>
 
-							</section>
-							<section>
-								<h3 style="text-align:center;">Socials</h3>
-								<ul class="icons alt" style="justify-content:center; display:flex; list-style:none; padding:0;">
-									<li><a href="https://www.linkedin.com/in/elhanangarba" class="icon brands alt fa-linkedin"><span class="label"  target="_blank">LinkedIn</span></a></li>
-									
-									<li><a href="https://github.com/elhanang"  class="icon brands alt fa-github"><span class="label"  target="_blank">GitHub</span></a></li>
-									
-								</ul>
-							</section>
-						</section>
-					</footer>
+					<!-- Excel -->
+					<div style="display:flex; flex-direction:column; align-items:center; gap:0.6rem;">
+						<img src="https://img.icons8.com/color/96/microsoft-excel-2019.png"
+							alt="Excel" style="width:60px; height:60px;" />
+						<span style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">Excel</span>
+					</div>
 
-<!-- COPYRIGHT / FOOTER -->
-<footer class="site-footer" role="contentinfo" aria-label="Footer" style="text-align:center; padding:1.5rem 0; background-color:#f8f8f8; font-family:Arial, sans-serif; color:#333;">
-  &copy; <span class="year">2026</span> El-hanan Garba. All rights reserved.
-</footer>
+					<!-- Power BI -->
+					<div style="display:flex; flex-direction:column; align-items:center; gap:0.6rem;">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
+							alt="Power BI" style="width:60px; height:60px;" />
+						<span style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">Power BI</span>
+					</div>
 
+					<!-- Python -->
+					<div style="display:flex; flex-direction:column; align-items:center; gap:0.6rem;">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+							alt="Python" style="width:60px; height:60px;" />
+						<span style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">Python</span>
+					</div>
+
+					<!-- GitHub -->
+					<div style="display:flex; flex-direction:column; align-items:center; gap:0.6rem;">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+							alt="GitHub" style="width:60px; height:60px;" />
+						<span style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">GitHub</span>
+					</div>
+
+					<!-- VS Code -->
+					<div style="display:flex; flex-direction:column; align-items:center; gap:0.6rem;">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+							alt="VS Code" style="width:60px; height:60px;" />
+						<span style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">VS Code</span>
+					</div>
+
+					<!-- Artificial Intelligence -->
+					<div style="display:flex; flex-direction:column; align-items:center; gap:0.6rem;">
+						<img src="https://img.icons8.com/color/96/artificial-intelligence.png"
+							alt="AI" style="width:60px; height:60px;" />
+						<span style="font-size:0.85rem; font-weight:600; letter-spacing:0.05em;">Artificial Intelligence</span>
+					</div>
+
+				</div>
+			</div>
+			<!-- /Tools Section -->
+
+			<!-- Contact -->
+			<h1 id="Contact" style="text-align: center;">Contact</h1>
+
+			<footer id="footer">
+				<section>
+					<form method="POST" action="https://formspree.io/f/mblnkqlr">
+						<h3 style="text-align:center;">Send a Message</h3>
+						<div class="fields">
+							<div class="field">
+								<label for="name">Name <span style="color: red">*</span></label>
+								<input type="text" name="name" id="name" required />
+							</div>
+							<div class="field">
+								<label for="email">Email <span style="color: red">*</span></label>
+								<input type="email" name="email" id="email" required />
+							</div>
+							<div class="field">
+								<label for="name">Subject</label>
+								<input type="text" name="subject" id="subject" />
+							</div>
+							<div class="field">
+								<label for="message">Message <span style="color: red">*</span></label>
+								<textarea name="message" id="message" rows="3" required></textarea>
+							</div>
+						</div>
+						<ul class="actions" style="justify-content: center;">
+							<li><input type="submit" value="Send Message" /></li>
+						</ul>
+					</form>
+				</section>
+				<section>
+					<h3 style="text-align:center;">Socials</h3>
+					<ul class="icons alt" style="justify-content:center; display:flex; list-style:none; padding:0;">
+						<li><a href="https://www.linkedin.com/in/elhanangarba" class="icon brands alt fa-linkedin"><span class="label" target="_blank">LinkedIn</span></a></li>
+						<li><a href="https://github.com/elhanang" class="icon brands alt fa-github"><span class="label" target="_blank">GitHub</span></a></li>
+					</ul>
+				</section>
+			</footer>
+
+			<!-- Copyright -->
+			<footer class="site-footer" role="contentinfo" aria-label="Footer" style="text-align:center; padding:1.5rem 0; background-color:#f8f8f8; font-family:Arial, sans-serif; color:#333;">
+				&copy; <span class="year">2026</span> El-hanan Garba. All rights reserved.
+			</footer>
+
+		</div>
+		<!-- /Wrapper -->
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
-
 </html>
+
+			</div>
+			<!-- /Main -->
